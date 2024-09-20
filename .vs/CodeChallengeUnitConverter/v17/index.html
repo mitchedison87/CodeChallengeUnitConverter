@@ -10,26 +10,31 @@
     <h1>Unit Converter</h1> 
 
     <label for="initalImput">First Value(Lbs):</label>
-    <input type="number" id="initalImput" value="1">
+    <input type="number" id="initalImput" 
+    oninput="weightConverter(this.value)" 
+    onchange="weightConverter(this.value)">
 
-    <label for="cars"></label>
+    <!--<label for="cars"></label>
   <select name="cars" id="cars">
     <option value="multi">*</option>
     <option value="divide">/</option>
     <option value="add">+</option>
     <option value="sub">-</option>
-  </select>
+  </select>-->
+    
 
-  
+  <script src="unitConvert.js"></script>
 
-  <label for="secondImput">Second Value(Kg):</label>
+    <!-- <label for="secondImput">Second Value(Kg):</label>
     <input type="number" id="secondImput" value="1">
 
     <div>
         <label for="Result">result:</label>
     <input type="number" id="resultValue" value="1">
-
-
     </div>
+-->
+ 
+    Kilograms: <span id="outputKilograms"></span>
+
 </body>
 </html>
