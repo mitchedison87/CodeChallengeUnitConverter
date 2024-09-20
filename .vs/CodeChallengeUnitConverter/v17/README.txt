@@ -11,4 +11,4 @@ Set-Up:
 
 Instructions: 
 
-    1. 
+    1. Enter a value for pounds
