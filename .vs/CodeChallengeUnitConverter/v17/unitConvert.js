@@ -3,5 +3,4 @@
 
 function weightConverter(valNum) {
     document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
-    console.log(valNum)
   }
